@@ -1,0 +1,123 @@
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C4D9FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 10%;
+    background: #e3f2fd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #333;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Hero Section Wrapper (Centers the White Box) */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Centers vertically */
+    width: 100%;
+}
+
+/* Hero Section (White Box) */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    padding: 50px;
+    width: 80%;
+    text-align: left;
+}
+
+/* Hero Text */
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: #C5BAFF;
+    text-shadow: 0 0 2px #e9e9e9, 0 0 10px #e9e9e9, 0 0 15px #e9e9e9;
+}
+
+.hero-text p {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    background: rgb(245, 197, 219);
+    color: #007bff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #007bff;
+    color: white;
+}
+
+/* Hero Image */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
